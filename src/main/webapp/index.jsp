@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="utf-8"%>
 <html lang="en">
 <head>
     <title>Servlets</title>
@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
           crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js integrity="sha384-
 FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,7 +17,7 @@ FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="a
     <div class="row ">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
             <div>
-                <img src="images/iconfinder_apple.png" alt="apple"/>
+                <img src="images/iconfinder_apple.png" alt=""/>
                 <div>Manzanas</div>
                 <a href="AddToShoppingCart?product=apple" class="btn btn-default">
                     2.05 €
@@ -26,7 +26,7 @@ FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="a
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
             <div>
-                <img src="images/iconfinder_strawberry.png" alt="strawberry"/>
+                <img src="images/iconfinder_strawberry.png" alt=""/>
                 <div>Fresas</div>
                 <a href="AddToShoppingCart?product=strawberry" class="btn btn-default">
                     2.20 €
@@ -35,7 +35,7 @@ FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="a
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
             <div>
-                <img src="images/iconfinder_orange.png" alt="orange"/>
+                <img src="images/iconfinder_orange.png" alt=""/>
                 <div>Naranjas</div>
                 <a href="AddToShoppingCart?product=orange" class="btn btn-default">
                     2.10 €
@@ -44,9 +44,9 @@ FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="a
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
             <div>
-                <img src="./images/iconfinder_bread.png" alt="bread"/>
+                <img src="./images/iconfinder_bread.png" alt=""/>
                 <div>Pan</div>
-                <a href="AddToShoppingCart?product=breadd" class="btn btn-default">
+                <a href="AddToShoppingCart?product=bread" class="btn btn-default">
                     0.80 €
                 </a>
             </div>
