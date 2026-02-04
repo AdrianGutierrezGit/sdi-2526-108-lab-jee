@@ -32,6 +32,9 @@ sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="a
             <li class="nav-item">
                 <a class="nav-link" href="admin.jsp">Administrar productos</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="products">Productos</a>
+            </li>
         </ul>
         <!-- Alineado a la derecha -->
         <div class="text-white ms-auto">
