@@ -48,9 +48,15 @@ sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="a
     <h2>Vista Carrito</h2>
     <ul>
         <c:forEach var="item" items="${selectedItems}">
-            <tr>
-                <li>${item.key} - ${item.value} </li>
-            </tr>
+            <li>${item.key} - ${item.value}
+                <span>
+                    <form action = "DeleteFromShopingCart" method = "post">
+                        <input type="hidden" name = "_method" value="DELETE">
+                        <input type="hidden" name = "product" value="${item.key}">
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                </span>
+            </li>
         </c:forEach>
     </ul>
     <a href="index.jsp">Volver</a>
